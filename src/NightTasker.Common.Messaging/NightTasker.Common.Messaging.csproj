@@ -11,6 +11,7 @@
       <PackageReference Include="MassTransit.Abstractions" Version="8.1.2" />
     </ItemGroup>
 
+
     <PropertyGroup>
         <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
         <NoWarn>$(NoWarn);1591</NoWarn>
