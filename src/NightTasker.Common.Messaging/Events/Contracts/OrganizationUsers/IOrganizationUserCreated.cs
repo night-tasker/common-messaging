@@ -4,8 +4,6 @@ namespace NightTasker.Common.Messaging.Events.Contracts.OrganizationUsers;
 
 public interface IOrganizationUserCreated
 {
-    Guid Id { get; }
-    
     Guid UserId { get; }
     
     Guid OrganizationId { get; }
