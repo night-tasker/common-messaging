@@ -1,4 +1,4 @@
-﻿namespace NightTasker.Common.Messaging.Events.Contracts;
+﻿namespace NightTasker.Common.Messaging.Events.Contracts.Users;
 
 /// <summary>
 /// Событие регистрации пользователя.

@@ -1,6 +1,6 @@
-﻿using NightTasker.Common.Messaging.Events.Contracts;
+﻿using NightTasker.Common.Messaging.Events.Contracts.Users;
 
-namespace NightTasker.Common.Messaging.Events.Implementations;
+namespace NightTasker.Common.Messaging.Events.Implementations.Users;
 
 /// <inheritdoc />
 public class UserRegistered(Guid id, string userName, string email) : IUserRegistered
